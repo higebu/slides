@@ -45,6 +45,7 @@ class: center,middle
 * [A Tour of Go](https://tour.golang.org/welcome/1) 後でやる
 * [Effective Go](https://golang.org/doc/effective_go.html) どう書くのが良いんだっけという時に見る
 * [Go open source projects](https://github.com/golang/go/wiki/Projects) 全部ではないけどGoでできたOSSが並んでいる
+* [GitHub Trending in Go](https://github.com/trending/go)
 * [The Go Blog](http://blog.golang.org/) 最新情報とTips
 * [はじめてのGo―シンプルな言語仕様，型システム，並行処理](http://gihyo.jp/dev/feature/01/go_4beginners) ちょっと古いけど日本語だとこれが良さそう
 
@@ -61,6 +62,11 @@ class: center,middle
 
 * [https://twitter.com/higebu/lists/golang](https://twitter.com/higebu/lists/golang/members)
     * Goのすごそうな人を入れてあります
+
+## GitHub Awards
+
+* [Top Go GitHub developers worldwide](http://github-awards.com/users?language=go)
+* [Top Go GitHub developers in Japan](http://github-awards.com/users?country=japan&language=go)
 
 ---
 
