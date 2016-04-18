@@ -38,6 +38,7 @@ class: center,middle
 * Web
     * [https://golang.org/](https://golang.org/) 公式ページ
     * [https://github.com/golang/go](https://github.com/golang/go) ソース
+    * [The Go Playground](https://play.golang.org) ブラウザ上でGolangのコードを実行できます
     * [A Tour of Go](https://tour.golang.org/welcome/1) 後でやる
     * [Effective Go](https://golang.org/doc/effective_go.html) どう書くのが良いんだっけという時に見る
     * [The Go Blog](http://blog.golang.org/) 最新情報とTips
@@ -72,8 +73,11 @@ class: center,middle
 
 ## Hello, World!
 
+まず、`go get`します
+
 ```sh
 go get github.com/higebu/gotraining
+cd $GOPATH/src/github.com/higebu/gotraining/helloworld/
 ```
 
 エラーになったらエラーメッセージをよく読んで対処してください
@@ -84,14 +88,11 @@ go get github.com/higebu/gotraining
 
 ## Hello, World!
 
-* [ソース](./helloworld/helloworld.go)
 * [Playground](http://play.golang.org/p/992fMmkkxr)
-    * [The Go Playground](https://play.golang.org)、ブラウザ上でGolangのコードを実行できます
 
 `go run` で実行できる
 
 ```sh
-cd $GOPATH/src/github.com/higebu/gotraining/helloworld/
 go run helloworld.go
 ```
 
@@ -109,6 +110,8 @@ go build helloworld.go
 ---
 
 # A Tour of Go
+
+[A Tour of Go](https://tour.golang.org/welcome/1)
 
 ---
 
