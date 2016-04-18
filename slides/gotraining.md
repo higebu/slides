@@ -112,6 +112,21 @@ go build helloworld.go
 
 ---
 
+# 準備
+
+## Hello, World!
+
+`go install`すると`$GOPATH/bin`配下にバイナリができます
+
+```
+go install github.com/higebu/gotraining/helloworld
+$GOPATH/bin/helloworld
+```
+
+`Hello, World!` と表示されるはず
+
+---
+
 # A Tour of Go
 
 [A Tour of Go](https://tour.golang.org/welcome/1)をやりましょう
