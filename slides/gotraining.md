@@ -41,6 +41,7 @@ class: center,middle
     * [The Go Playground](https://play.golang.org) ブラウザ上でGolangのコードを実行できます
     * [A Tour of Go](https://tour.golang.org/welcome/1) 後でやる
     * [Effective Go](https://golang.org/doc/effective_go.html) どう書くのが良いんだっけという時に見る
+    * [Go open source projects](https://github.com/golang/go/wiki/Projects) 全部ではないけどGoでできたOSSが並んでいる
     * [The Go Blog](http://blog.golang.org/) 最新情報とTips
     * [はじめてのGo―シンプルな言語仕様，型システム，並行処理](http://gihyo.jp/dev/feature/01/go_4beginners) ちょっと古いけど日本語だとこれが良さそう
 * 本
@@ -56,6 +57,7 @@ class: center,middle
 
 * [公式ドキュメント](https://golang.org/doc/install)に従って入れれば良い
 * 実際の研修ではいろいろインストール済のVMが配られるはず
+* `go`コマンドを実行できるか、`echo $GOPATH`が表示されるか確認してください
 
 ---
 
@@ -111,16 +113,32 @@ go build helloworld.go
 
 # A Tour of Go
 
-[A Tour of Go](https://tour.golang.org/welcome/1)
+[A Tour of Go](https://tour.golang.org/welcome/1)をやりましょう
+
+わからないことがあったら周りにいる先輩に聞いてください
+
+たぶん、午前中いっぱいくらい
+
+---
+
+# 並行処理補足(syncパッケージ)
+
+syncパッケージの紹介 by S先輩
 
 ---
 
 # テストの書き方
 
+テストの書き方を教える
+
 ---
 
 # 標準パッケージいろいろ
 
+公式ドキュメント見ながらサンプルを紹介していく感じ
+
 ---
 
 # 課題
+
+何か課題をやる
