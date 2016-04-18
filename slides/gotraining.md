@@ -20,9 +20,10 @@ class: center,middle
 
 ## Goについて
 
-* 2009年に公開され、2012年にバージョン1になり、最新版は2016/2/17にリリースされた1.6です
-* GoogleのRobert Griesemer、Rob Pike、Ken Thompsonの3人が設計した言語です
-* 1.5からCではなく、Goとアセンブラで書かれています [No more C](https://golang.org/doc/go1.5#c)
+* 2009年に公開され、2012年にバージョン1になり、最新版は2016/2/17にリリースされた1.6
+* GoogleのRobert Griesemer、Rob Pike、Ken Thompsonの3人が設計した言語
+* 1.5からCではなく、Goとアセンブラで書かれている
+    * [No more C](https://golang.org/doc/go1.5#c)
 * 特徴
     * 静的型付け言語
     * コンパイル言語なのでデプロイしたり、コンテナに入れたりしやすい
@@ -36,19 +37,30 @@ class: center,middle
 
 # 参考
 
-* Web
-    * [https://golang.org/](https://golang.org/) 公式ページ
-    * [https://github.com/golang/go](https://github.com/golang/go) ソース
-    * [The Go Playground](https://play.golang.org) ブラウザ上でGolangのコードを実行できます
-    * [A Tour of Go](https://tour.golang.org/welcome/1) 後でやる
-    * [Effective Go](https://golang.org/doc/effective_go.html) どう書くのが良いんだっけという時に見る
-    * [Go open source projects](https://github.com/golang/go/wiki/Projects) 全部ではないけどGoでできたOSSが並んでいる
-    * [The Go Blog](http://blog.golang.org/) 最新情報とTips
-    * [はじめてのGo―シンプルな言語仕様，型システム，並行処理](http://gihyo.jp/dev/feature/01/go_4beginners) ちょっと古いけど日本語だとこれが良さそう
-* 本
-    * [The Go Programming Language](http://www.gopl.io/) 現状一番良い本で6月に日本語版出るらしい
-* Twitter
-    * [https://twitter.com/higebu/lists/golang](https://twitter.com/higebu/lists/golang/members)
+## Web
+
+* [https://golang.org/](https://golang.org/) 公式ページ
+* [https://github.com/golang/go](https://github.com/golang/go) ソース
+* [The Go Playground](https://play.golang.org) ブラウザ上でGolangのコードを実行できる
+* [A Tour of Go](https://tour.golang.org/welcome/1) 後でやる
+* [Effective Go](https://golang.org/doc/effective_go.html) どう書くのが良いんだっけという時に見る
+* [Go open source projects](https://github.com/golang/go/wiki/Projects) 全部ではないけどGoでできたOSSが並んでいる
+* [The Go Blog](http://blog.golang.org/) 最新情報とTips
+* [はじめてのGo―シンプルな言語仕様，型システム，並行処理](http://gihyo.jp/dev/feature/01/go_4beginners) ちょっと古いけど日本語だとこれが良さそう
+
+---
+
+# 参考
+
+## 本
+
+* [The Go Programming Language](http://www.gopl.io/)
+    * 6月に日本語版出るらしい
+
+## Twitter
+
+* [https://twitter.com/higebu/lists/golang](https://twitter.com/higebu/lists/golang/members)
+    * Goのすごそうな人を入れてあります
 
 ---
 
