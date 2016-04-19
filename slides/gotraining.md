@@ -1,7 +1,7 @@
 class: center,middle
 # Go Training
 
-@higebu
+Version 2016
 
 ---
 
@@ -163,6 +163,9 @@ Exerciseは飛ばしてざーっと読む感じで良いです
 
 A Tour of Goで説明されていないけど知っておいた方がいいことなどを補足します
 
+* iota
+* sync
+
 ---
 
 # 補足
@@ -191,6 +194,8 @@ const (
 # 補足
 
 ## syncパッケージ
+
+
 
 ---
 
