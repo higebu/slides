@@ -199,23 +199,61 @@ const (
 
 ---
 
-# テストの書き方
+# テスト
 
 テストには[testing](https://golang.org/pkg/testing/)パッケージを使う
 
-* 例
-    ```
-    cd $GOPATH/src/github.com/higebu/gotraining/hello
-    ```
-* テスト実行
-    ```
-    go test -v
-    ```
+例は下記のディレクトリにあります
+
+```
+cd $GOPATH/src/github.com/higebu/gotraining/hello
+```
+
+---
+
+# テスト
+
+## テスト実行
+
+`xxx_test.go`にTestXxxを書いておくとテストできる
+
+```
+go test -v
+```
+
+下記のような出力になるはず
+
+```
+=== RUN   TestHello
+--- PASS: TestHello (0.00s)
+=== RUN   ExampleHello
+--- PASS: ExampleHello (0.00s)
+PASS
+ok      github.com/higebu/gotraining/hello      0.003s
+```
+
 * Exampleを使うとgodocで見られるしテストもできる [![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
-* ベンチマーク
-    ```
-    go test -bench .
-    ```
+
+---
+
+# テスト
+
+##  ベンチマーク
+
+BenchXxxを書いておいて、`-bench` を付けるとベンチマークできる
+
+```
+go test -bench .
+```
+
+下記のような出力になるはず
+
+```
+PASS
+BenchmarkHello-4         5000000               345 ns/op
+ok      github.com/higebu/gotraining/hello      2.075s
+```
+
 ---
 
 # 標準パッケージいろいろ
