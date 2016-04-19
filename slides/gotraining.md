@@ -308,17 +308,92 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 # 標準パッケージ紹介
 
-* [encoding/json](https://golang.org/pkg/encoding/json/)
-* [flag](https://golang.org/pkg/flag/)
-* [html/template](https://golang.org/pkg/html/template/)
-* [io](https://golang.org/pkg/io/), [io/ioutil](https://golang.org/pkg/io/ioutil/)
-* [log](https://golang.org/pkg/log/)
-    * 標準じゃないけど[github.com/Sirupsen/logrus](https://github.com/Sirupsen/logrus)が人気
-* [os](https://golang.org/pkg/os/), [os/exec](https://golang.org/pkg/os/exec/)
-* [path](https://golang.org/pkg/path/)
-* [strconv](https://golang.org/pkg/strconv/)
-* [strings](https://golang.org/pkg/strings/)
-* [time](https://golang.org/pkg/time/)
+## [encoding/json](https://golang.org/pkg/encoding/json/)
+
+* jsonのエンコード、デコードをするパッケージ
+* encoding配下には他にもいろいろな形式にエンコード、デコードするパッケージがある
+* [Marshalの例](https://play.golang.org/p/ZDb6bVGiO6)
+* [Unmarshalの例](https://play.golang.org/p/64LCjbg6pI)
+
+---
+
+# 標準パッケージ紹介
+
+## [flag](https://golang.org/pkg/flag/)
+
+* コマンドのフラグをパースするためのパッケージ
+
+---
+
+# 標準パッケージ紹介
+
+## [html/template](https://golang.org/pkg/html/template/)
+
+* テンプレートからhtmlを生成するためのパッケージ
+* [例](https://play.golang.org/p/x7pWBZL2Zl)
+
+---
+
+# 標準パッケージ紹介
+
+## [io](https://golang.org/pkg/io/), [io/ioutil](https://golang.org/pkg/io/ioutil/)
+
+* I/O関連のパッケージ
+* io.Copyとかよく使うかもしれない
+    * [例](https://play.golang.org/p/PvRHPcT2QF)
+* ioutil.ReadAllも便利だけどでかいファイルとか読むとメモリあふれるので注意 [例](https://play.golang.org/p/FUgPAZ9w2X)
+
+---
+
+# 標準パッケージ紹介
+
+## [log](https://golang.org/pkg/log/)
+
+* ログのためのパッケージ
+* 標準じゃないけど[github.com/Sirupsen/logrus](https://github.com/Sirupsen/logrus)が人気
+
+---
+
+# 標準パッケージ紹介
+
+## [os](https://golang.org/pkg/os/), [os/exec](https://golang.org/pkg/os/exec/)
+
+* OS関連のパッケージ
+* OSの種類を判別するとかファイル読むとか
+    ```golang
+    file, err := os.Open("file.go")
+    if err != nil {
+        log.Fatal(err)
+    }
+    ```
+
+* os/exec はコマンドを実行するときに使う
+
+---
+
+# 標準パッケージ紹介
+
+## [path](https://golang.org/pkg/path/)
+
+* path操作するためのパッケージ
+
+---
+
+# 標準パッケージ紹介
+
+## [strconv](https://golang.org/pkg/strconv/)
+
+---
+
+# 標準パッケージ紹介
+
+## [strings](https://golang.org/pkg/strings/)
+
+---
+
+# 標準パッケージ紹介
+
+## [time](https://golang.org/pkg/time/)
 
 ---
 
