@@ -232,7 +232,27 @@ PASS
 ok      github.com/higebu/gotraining/hello      0.003s
 ```
 
-* Exampleを使うとgodocで見られるしテストもできる [![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
+Exampleを使うとgodocで見られるしテストもできる [![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
+
+---
+
+# テスト
+
+## カバレッジ
+
+カバレッジも確認できる
+
+```
+go test -cover
+```
+
+下記のような出力になるはず
+
+```
+PASS
+coverage: 100.0% of statements
+ok      github.com/higebu/gotraining/hello      0.003s
+```
 
 ---
 
@@ -253,6 +273,8 @@ PASS
 BenchmarkHello-4         5000000               345 ns/op
 ok      github.com/higebu/gotraining/hello      2.075s
 ```
+
+`go test --help`してどんなオプションがあるか見ておいてください
 
 ---
 
