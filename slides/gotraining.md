@@ -278,7 +278,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 ---
 
-# よく使いそうな標準パッケージ紹介
+# 標準パッケージ紹介
 
 [パッケージ一覧](https://golang.org/pkg/)
 
