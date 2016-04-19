@@ -204,15 +204,11 @@ cd $GOPATH/src/github.com/higebu/gotraining/iota
     ```
     cd $GOPATH/src/github.com/higebu/gotraining/hello
     ```
-
 * テスト実行
     ```
     go test -v
     ```
-
-* Exampleを使うとgodocで見られるしテストもできる
-    * [![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
-
+* Exampleを使うとgodocで見られるしテストもできる [![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
 * ベンチマーク
     ```
     go test -bench .
