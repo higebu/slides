@@ -12,7 +12,7 @@ Version 2016
 3. 準備
 4. A Tour of Go
 5. 補足
-6. テストの書き方
+6. テスト
 7. 標準パッケージいろいろ
 8. 課題
 
@@ -20,7 +20,8 @@ Version 2016
 
 ## Goについて
 
-* 2009年に公開され、2012年にバージョン1になり、最新版は2016/2/17にリリースされた1.6
+* 2009年に公開され、2012年にバージョン1になった
+* 最新版は2016/2/17にリリースされた1.6
 * GoogleのRobert Griesemer、Rob Pike、Ken Thompsonの3人が設計した言語
 * 1.5からCではなく、Goとアセンブラで書かれている
     * [No more C](https://golang.org/doc/go1.5#c)
@@ -109,24 +110,22 @@ cd $GOPATH/src/github.com/higebu/gotraining/helloworld/
 
 ## Hello, World!
 
-* [Playground](http://play.golang.org/p/992fMmkkxr)
+[Playground](http://play.golang.org/p/992fMmkkxr)
 
-`go run` で実行できる
+* `go run` で実行できる
+    ```sh
+    go run helloworld.go
+    ```
 
-```sh
-go run helloworld.go
-```
+    `Hello, World!` と表示されるはず
 
-`Hello, World!` と表示されるはず
+* `go build` でコンパイルできる
+    ```sh
+    go build helloworld.go
+    ./helloworld
+    ```
 
-`go build` でコンパイルできる
-
-```sh
-go build helloworld.go
-./helloworld
-```
-
-`Hello, World!` と表示されるはず
+    `Hello, World!` と表示されるはず
 
 ---
 
@@ -136,7 +135,7 @@ go build helloworld.go
 
 `go install`すると`$GOPATH/bin`配下にバイナリができます
 
-```
+```sh
 go install github.com/higebu/gotraining/helloworld
 $GOPATH/bin/helloworld
 ```
@@ -164,7 +163,7 @@ Exerciseは飛ばしてざーっと読む感じで良いです
 A Tour of Goで説明されていないけど知っておいた方がいいことなどを補足します
 
 * iota
-* sync
+* 並行処理の補足
 
 ---
 
@@ -193,9 +192,11 @@ const (
 
 # 補足
 
-## syncパッケージ
+## 並行処理の補足
 
+[資料](http://hitsumabushi.github.io/slides/?golang-concurrency)
 
+あとでマージするかもしれない
 
 ---
 
