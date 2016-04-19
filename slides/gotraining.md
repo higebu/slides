@@ -200,22 +200,23 @@ cd $GOPATH/src/github.com/higebu/gotraining/iota
 
 テストには[testing](https://golang.org/pkg/testing/)パッケージを使う
 
-```
-cd $GOPATH/src/github.com/higebu/gotraining/hello
-```
+* 例
+    ```
+    cd $GOPATH/src/github.com/higebu/gotraining/hello
+    ```
 
-[![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
-
-* テストの実行
+* テスト実行
     ```
     go test -v
     ```
+
+* Exampleを使うとgodocで見られるしテストもできる
+    * [![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
 
 * ベンチマーク
     ```
     go test -bench .
     ```
-
 ---
 
 # 標準パッケージいろいろ
