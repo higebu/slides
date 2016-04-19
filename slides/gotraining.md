@@ -278,9 +278,22 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 ---
 
-# 標準パッケージいろいろ
+# よく使いそうな標準パッケージ紹介
 
-公式ドキュメント見ながらサンプルを紹介していく感じ
+[パッケージ一覧](https://golang.org/pkg/)
+
+* [bufio](https://golang.org/pkg/bufio/)
+* [encoding/json](https://golang.org/pkg/encoding/json/)
+* [flag](https://golang.org/pkg/flag/)
+* [html/template](https://golang.org/pkg/html/template/)
+* [io](https://golang.org/pkg/io/), [io/ioutil](https://golang.org/pkg/io/ioutil/)
+* [log](https://golang.org/pkg/log/)
+    * 標準じゃないけど[github.com/Sirupsen/logrus](https://github.com/Sirupsen/logrus)が人気
+* [os](https://golang.org/pkg/os/), [os/exec](https://golang.org/pkg/os/exec/)
+* [path](https://golang.org/pkg/path/)
+* [strconv](https://golang.org/pkg/strconv/)
+* [strings](https://golang.org/pkg/strings/)
+* [time](https://golang.org/pkg/time/)
 
 ---
 
