@@ -147,11 +147,15 @@ $GOPATH/bin/helloworld
 
 # A Tour of Go
 
-[A Tour of Go](https://tour.golang.org/welcome/1)をやりましょう
+事前課題として出していた[A Tour of Go](https://tour.golang.org/welcome/1)ですが、やっていない人もいると思うのでやりましょう
 
 わからないことがあったら周りにいる先輩に聞いてください
 
 たぶん、午前中いっぱいくらい
+
+Exerciseは飛ばしてざーっと読む感じで良いです
+
+余裕があったらExerciseをやってもいいし、課題を先にやっていてもいいです
 
 ---
 
@@ -165,7 +169,7 @@ A Tour of Goで説明されていないけど知っておいた方がいいこ�
 
 ## iota
 
-constで定義した定数に連番を付けられる
+constで定義した定数に連番を付けられます
 
 ```golang
 const (
@@ -195,6 +199,22 @@ cd $GOPATH/src/github.com/higebu/gotraining/iota
 # テストの書き方
 
 テストには[testing](https://golang.org/pkg/testing/)パッケージを使う
+
+```
+cd $GOPATH/src/github.com/higebu/gotraining/hello
+```
+
+[![GoDoc](https://godoc.org/github.com/higebu/gotraining/hello?status.svg)](https://godoc.org/github.com/higebu/gotraining/hello)
+
+* テストの実行
+    ```
+    go test -v
+    ```
+
+* ベンチマーク
+    ```
+    go test -bench .
+    ```
 
 ---
 
