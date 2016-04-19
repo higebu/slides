@@ -110,7 +110,7 @@ cd $GOPATH/src/github.com/higebu/gotraining/helloworld/
 
 ## Hello, World!
 
-[Playground](http://play.golang.org/p/992fMmkkxr)
+* [Playground](http://play.golang.org/p/992fMmkkxr)
 
 * `go run` で実行できる
     ```sh
@@ -206,7 +206,7 @@ const (
 
 例は下記のディレクトリにあります
 
-```
+```sh
 cd $GOPATH/src/github.com/higebu/gotraining/hello
 ```
 
@@ -218,7 +218,7 @@ cd $GOPATH/src/github.com/higebu/gotraining/hello
 
 `xxx_test.go`にTestXxxを書いておくとテストできる
 
-```
+```sh
 go test -v
 ```
 
@@ -243,7 +243,7 @@ Exampleを使うとgodocで見られるしテストもできる [![GoDoc](https:
 
 カバレッジも確認できる
 
-```
+```sh
 go test -cover
 ```
 
@@ -263,7 +263,7 @@ ok      github.com/higebu/gotraining/hello      0.003s
 
 BenchXxxを書いておいて、`-bench` を付けるとベンチマークできる
 
-```
+```sh
 go test -bench .
 ```
 
@@ -281,9 +281,33 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 # 標準パッケージ紹介
 
-[パッケージ一覧](https://golang.org/pkg/)
+* [パッケージ一覧](https://golang.org/pkg/)
+* Goを書いていて、〇〇ってGoでどう書くんだっけと思ったらとりあえずここを見に来る
+* なさそうとか思って自分でパッケージを作ったりしないで探してみる
+* 各パッケージ自体もちろんGoで書かれているので書き方の参考にもなる
 
-* [bufio](https://golang.org/pkg/bufio/)
+---
+
+# 標準パッケージ紹介
+
+## [bufio](https://golang.org/pkg/bufio/)
+
+* 名前の通り、bufferd I/Oのパッケージ
+* 標準入力から1行ずつ読み込むとか
+    ```golang
+    scanner := bufio.NewScanner(os.Stdin)
+    for scanner.Scan() {
+        fmt.Println(scanner.Text())
+    }
+    if err := scanner.Err(); err != nil {
+        fmt.Fprintln(os.Stderr, "reading standard input:", err)
+    }
+    ```
+
+---
+
+# 標準パッケージ紹介
+
 * [encoding/json](https://golang.org/pkg/encoding/json/)
 * [flag](https://golang.org/pkg/flag/)
 * [html/template](https://golang.org/pkg/html/template/)
