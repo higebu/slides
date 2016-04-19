@@ -175,7 +175,8 @@ const (
 )
 ```
 
-例: [Playground](https://play.golang.org/p/dIsrapo5AV)
+例1: [Playground](https://play.golang.org/p/lPT7Lflgmw)
+例2: [Playground](https://play.golang.org/p/dIsrapo5AV)
 
 ローカルで動かしたい場合
 
