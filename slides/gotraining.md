@@ -179,14 +179,12 @@ const (
 )
 ```
 
-例1: [Playground](https://play.golang.org/p/lPT7Lflgmw)
-例2: [Playground](https://play.golang.org/p/dIsrapo5AV)
-
-ローカルで動かしたい場合
-
-```
-cd $GOPATH/src/github.com/higebu/gotraining/iota
-```
+* 例1: [Playground](https://play.golang.org/p/lPT7Lflgmw)
+* 例2: [Playground](https://play.golang.org/p/dIsrapo5AV)
+    * ローカルで動かしたい場合
+    ```
+    cd $GOPATH/src/github.com/higebu/gotraining/iota
+    ```
 
 ---
 
