@@ -11,7 +11,7 @@ class: center,middle
 2. 参考
 3. 準備
 4. A Tour of Go
-5. 並行処理補足(syncパッケージ)
+5. 補足
 6. テストの書き方
 7. 標準パッケージいろいろ
 8. 課題
@@ -155,15 +155,45 @@ $GOPATH/bin/helloworld
 
 ---
 
-# 並行処理補足(syncパッケージ)
+# 補足
 
-syncパッケージの紹介 by S先輩
+A Tour of Goで説明されていないけど知っておいた方がいいことなどを補足します
+
+---
+
+# 補足
+
+## iota
+
+constで定義した定数に連番を付けられる
+
+```golang
+const (
+    a = iota
+    b
+    c
+)
+```
+
+例: [Playground](https://play.golang.org/p/dIsrapo5AV)
+
+ローカルで動かしたい場合
+
+```
+cd $GOPATH/src/github.com/higebu/gotraining/iota
+```
+
+---
+
+# 補足
+
+## syncパッケージ
 
 ---
 
 # テストの書き方
 
-テストの書き方を教える
+テストには[testing](https://golang.org/pkg/testing/)パッケージを使う
 
 ---
 
