@@ -14,7 +14,8 @@ Version 2016
 5. 補足
 6. テスト
 7. 標準パッケージいろいろ
-8. 課題
+8. Vendoring
+9. 課題
 
 ---
 
@@ -368,6 +369,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
     ```
 
 * os/exec はコマンドを実行するときに使う
+    * [例](https://play.golang.org/p/R9V-5MpHyK)
 
 ---
 
@@ -376,6 +378,8 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [path](https://golang.org/pkg/path/)
 
 * path操作するためのパッケージ
+* 自分で文字列つなげて間に`/`入れるとかしなくて良い
+* urlは[net/url](https://golang.org/pkg/net/url/)
 
 ---
 
@@ -383,17 +387,29 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 ## [strconv](https://golang.org/pkg/strconv/)
 
+* stringと各種データ型の変換をするためのパッケージ
+* 何かをstringにしたいとかstringからintにしたいとかで使う
+* stringにしたいときは`fmt.Sprintf`を使うという手もあって、特に整形したいときは`fmt.Sprintf`
+
 ---
 
 # 標準パッケージ紹介
 
 ## [strings](https://golang.org/pkg/strings/)
 
+* stringいじるためのパッケージ
+
 ---
 
 # 標準パッケージ紹介
 
 ## [time](https://golang.org/pkg/time/)
+
+* 日付・時刻のパッケージ
+
+# Vendoring
+
+* いつも`go get`してたらupstreamの変更によって壊れるかもしれない
 
 ---
 
