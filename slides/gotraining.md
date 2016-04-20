@@ -407,6 +407,8 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 * 日付・時刻のパッケージ
 
+---
+
 # Vendoring
 
 * いつも`go get`してたらupstreamの変更によって壊れるかもしれない
