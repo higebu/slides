@@ -321,6 +321,8 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [flag](https://golang.org/pkg/flag/)
 
 * コマンドのフラグをパースするためのパッケージ
+    * [例](https://github.com/higebu/gotraining/blob/master/flag-example/main.go)
+    * [playground](https://play.golang.org/p/0BHXOKE1-j)
 
 ---
 
@@ -397,6 +399,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [strings](https://golang.org/pkg/strings/)
 
 * stringいじるためのパッケージ
+* [公式のExamples](https://golang.org/pkg/strings/#pkg-examples)が豊富なのでそれを見ると良いです
 
 ---
 
@@ -405,6 +408,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [time](https://golang.org/pkg/time/)
 
 * 日付・時刻のパッケージ
+* [公式のExamples](https://golang.org/pkg/time/#pkg-examples)
 
 ---
 
