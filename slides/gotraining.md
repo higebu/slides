@@ -444,6 +444,8 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## 課題1
 
 * チャットに発言できるクライアントを作ろう
+* たぶんMattermostでやることになる
+* 参考: [Mattermost APIs](http://docs.mattermost.com/developer/api.html)
 
 ---
 
