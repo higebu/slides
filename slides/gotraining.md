@@ -99,7 +99,8 @@ Version 2016
 
 ## エディタ
 
-* Vimだったら[vim-go](https://github.com/fatih/vim-go)入れておくと良いです
+* Vimだったら[fatih/vim-go](https://github.com/fatih/vim-go)入れておくと良いです
+* Emacsだったら[dominikh/go-mode.el](https://github.com/dominikh/go-mode.el)というのが良いらしいです
 * 他のエディタについては知りませんがググればいろいろ出てくると思います
 * とにかく保存時に[goimports](https://godoc.org/golang.org/x/tools/cmd/goimports)とか[golint](https://github.com/golang/lint)とかでチェックするようにしておくと捗ります
 
