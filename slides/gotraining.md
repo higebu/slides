@@ -367,6 +367,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 * ログのためのパッケージ
 * 標準じゃないけど[github.com/Sirupsen/logrus](https://github.com/Sirupsen/logrus)が人気
+* 何かライブラリとかツールとか作るときはLoggerは設定したものを渡せるように作っておくと良い
 
 ---
 
