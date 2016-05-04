@@ -464,6 +464,8 @@ ok      github.com/higebu/gotraining/hello      2.075s
     * チャットに書き込むgoroutineとチャットを読み込むgoroutine
     * 書き込み用のchannelでメッセージの受け渡しをする
 
+---
+
 # 課題
 
 ## 課題4
