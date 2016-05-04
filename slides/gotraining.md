@@ -400,7 +400,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [path](https://golang.org/pkg/path/)
 
 * path操作するためのパッケージ
-* 自分で文字列つなげて間に`/`入れるとかしなくて良い
+* [公式のExamples](https://golang.org/pkg/path/#pkg-examples)が豊富なのでそれを見ると良いです
 * urlは[net/url](https://golang.org/pkg/net/url/)
 
 ---
@@ -410,6 +410,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [strconv](https://golang.org/pkg/strconv/)
 
 * stringと各種データ型の変換をするためのパッケージ
+* [公式のExamples](https://golang.org/pkg/strconv/#pkg-examples)
 * 何かをstringにしたいとかstringからintにしたいとかで使う
 * stringにしたいときは`fmt.Sprintf`を使うという手もあって、特に整形したいときは`fmt.Sprintf`
 
@@ -420,7 +421,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## [strings](https://golang.org/pkg/strings/)
 
 * stringいじるためのパッケージ
-* [公式のExamples](https://golang.org/pkg/strings/#pkg-examples)が豊富なのでそれを見ると良いです
+* [公式のExamples](https://golang.org/pkg/strings/#pkg-examples)
 
 ---
 
