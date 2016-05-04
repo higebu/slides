@@ -19,7 +19,7 @@ Version 2016
 
 ---
 
-## Goについて
+# Goについて
 
 * 2009年に公開され、2012年にバージョン1になった
 * 現時点での最新版は2016/04/20にリリースされた1.6.2
@@ -34,6 +34,19 @@ Version 2016
     * 並行処理に強い
     * GCある
     * `go fmt`などの公式ツールが強力
+
+---
+
+# Goについて
+
+## 弊社とGo
+
+* たぶんサービスではほぼ使われていない
+    * DRサービスでは一部使っている
+    * 他も探したらあるかもしれない
+* インフラ方面での利用
+    * [Hashicorp](https://www.hashicorp.com/)製品を使ったりいじるときにGoを書いている
+    * DockerとかKubernetesとかGoで書かれているものが増え、VMwareも[GoのSDK](https://github.com/vmware/govmomi)とか[Goでできたプロダクト](https://github.com/vmware/vic)を作り始めている
 
 ---
 
