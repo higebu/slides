@@ -197,8 +197,6 @@ const (
 
 [資料](http://hitsumabushi.github.io/slides/?golang-concurrency)
 
-あとでマージするかもしれない
-
 ---
 
 # テスト
@@ -284,7 +282,7 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 * [パッケージ一覧](https://golang.org/pkg/)
 * Goを書いていて、〇〇ってGoでどう書くんだっけと思ったらとりあえずここを見に来る
-* なさそうとか思って自分でパッケージを作ったりしないで探してみる
+* なさそうと思って自分でパッケージを作ったりしないで探してみる
 * 各パッケージ自体もちろんGoで書かれているので書き方の参考にもなる
 
 ---
@@ -342,7 +340,8 @@ ok      github.com/higebu/gotraining/hello      2.075s
 * I/O関連のパッケージ
 * io.Copyとかよく使うかもしれない
     * [例](https://play.golang.org/p/PvRHPcT2QF)
-* ioutil.ReadAllも便利だけどでかいファイルとか読むとメモリあふれるので注意 [例](https://play.golang.org/p/FUgPAZ9w2X)
+* ioutil.ReadAllも便利だけどでかいファイルとか読むとメモリあふれるので注意
+    * [例](https://play.golang.org/p/FUgPAZ9w2X)
 
 ---
 
@@ -414,9 +413,12 @@ ok      github.com/higebu/gotraining/hello      2.075s
 * go 1.5からVendoringの機能が追加され、1.6から標準になりました
 * 依存しているパッケージのソースを`vendor`ディレクトリ配下に置きます
 * ツールはたくさんある状態なので、いろいろと試してみると良いです
-    * https://github.com/golang/go/wiki/PackageManagementTools
-    * [Godep](https://github.com/tools/godep)が一番流行っているという印象で、GitHubのスター数も3000以上と大差がついています
-    * 最近は[glide](https://glide.sh/)が流行っています
+    * <https://github.com/golang/go/wiki/PackageManagementTools>
+    * [tools/godep](https://github.com/tools/godep)
+    * [Masterminds/glide](https://glide.sh/)
+    * [FiloSottile/gvt](https://github.com/FiloSottile/gvt)
+    * [kardianos/govendor](https://github.com/kardianos/govendor)
+    * [constabulary/gb](https://getgb.io/)
 
 ---
 
