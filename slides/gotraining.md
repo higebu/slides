@@ -460,9 +460,6 @@ ok      github.com/higebu/gotraining/hello      2.075s
 ## 課題3
 
 * チャットのあるルームの発言を別のルームに流すデーモンを作ろう
-* ヒント
-    * チャットに書き込むgoroutineとチャットを読み込むgoroutine
-    * 書き込み用のchannelでメッセージの受け渡しをする
 
 ---
 
