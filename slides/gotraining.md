@@ -292,6 +292,12 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 ---
 
+# テスト
+
+テスト関連で見ておいた方がいいスライド: [Advanced Testing with Go](https://speakerdeck.com/mitchellh/advanced-testing-with-go)
+
+---
+
 # 標準パッケージ紹介
 
 * [パッケージ一覧](https://golang.org/pkg/)
