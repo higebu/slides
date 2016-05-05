@@ -432,6 +432,16 @@ ok      github.com/higebu/gotraining/hello      2.075s
 
 ---
 
+# エラー処理
+
+##  参考
+
+* [Golang Error Handling lesson by Rob Pike](http://jxck.hatenablog.com/entry/golang-error-handling-lesson-by-rob-pike)
+* [Errors are values - The Go Blog](https://blog.golang.org/errors-are-values)
+* [Golangのエラー処理とpkg/errors](http://deeeet.com/writing/2016/04/25/go-pkg-errors/)
+
+---
+
 # Vendoring
 
 * go 1.5からVendoringの機能が追加され、1.6から標準になりました
