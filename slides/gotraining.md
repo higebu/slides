@@ -42,8 +42,6 @@ Version 2016
 ## 弊社とGo
 
 * たぶんサービスではほぼ使われていない
-    * DRサービスでは一部使っている
-    * 他も探したらあるかもしれない
 * インフラ方面での利用
     * [Hashicorp](https://www.hashicorp.com/)製品を使ったりいじるときにGoを書いている
     * DockerとかKubernetesとかGoで書かれているものが増え、VMwareも[GoのSDK](https://github.com/vmware/govmomi)とか[Goでできたプロダクト](https://github.com/vmware/vic)を作り始めている
