@@ -272,7 +272,7 @@ ok      github.com/higebu/gotraining/hello      0.003s
 
 ##  ベンチマーク
 
-BenchXxxを書いておいて、`-bench` を付けるとベンチマークできる
+BenchmarkXxxを書いておいて、`-bench` を付けるとベンチマークできる
 
 ```sh
 go test -bench .
